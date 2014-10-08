@@ -16,7 +16,7 @@ ADD pukiwiki-1_5_0_utf8.zip /pukiwiki.zip
 
 RUN unzip /pukiwiki.zip  && \
      mv pukiwiki-1_5_0_utf8/ pukiwiki/ && \
-     chown -R www-data:www-data /pukiwiki && \
+     chown -R www-data:www-data /pukiwiki 
 
 WORKDIR /etc/nginx
 EXPOSE 80
